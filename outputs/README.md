@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-It's really amazing!
+It is super cool!
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,17 +14,17 @@ It's really amazing!
 - [Questions](#questions)
 
 ## Installation
-Try it and have fun.
+Type node index.js
 ## Usage
-Use to make great readme.md!
+Have fun!
 ## License
 This application is covered under the [MIT License](https://opensource.org/licenses/MIT). 
 Please click the link for more information.
 
 ## Contributing
-Reach out to contribute!
+Contact me
 ## Tests
-Test it.
+Test it!
 ## Questions
 Find me on Github: [johnpow](https://github.com/johnpow)
 

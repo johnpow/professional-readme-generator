@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this applicatio
 const inquirer = require("inquirer");
 const fs = require("fs");
-const gm = require('./utils/generateMarkdown.js')
+const gm = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -35,8 +35,8 @@ const questions = [
     response: "input",
   },
   {
-    name: "liscience ",
-    message: "What is your preferred method of comms?",
+    name: "licensePref",
+    message: "Which license would you like to use?",
     type: "rawlist",
     choices: [
       "Apache License 2.0",
@@ -86,10 +86,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((answers) => {
 
-    writeToFile("./README.json", JSON.stringify(answers, null, 2));
+    writeToFile("./README.md", gm.generateMarkdown(answers));
 
   });
 }
 
-// Function call to initialize app
 init();

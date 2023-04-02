@@ -1,31 +1,30 @@
-# Jon
-
-  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# README.md Generator
 
 ## Description
-its awesome
+This README.md Generator helps users create a high quality README.md file by asking a series of questions to populate the content. It's easy to use and includes useful license badging.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Credits](#credits)
+- [Features](#features)
+- [Access](#access)
 
-## Installation
-run the code
 ## Usage
-ewde
-## License
-This application is covered under the [BSD 3-Clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause). 
-Please click the link for more information.
+- Run the application by using the following command:
+```bash
+node index.js
+```
+- Answer the questions about your project.
+- Find the README.md file with all your responses.
 
-## Contributing
-dwe
-## Tests
+![alt text](./images/terminal.png)
 
-## Questions
-Find me on Github: [johnpow](https://github.com/johnpow)
+## Credits
+Pulled source code from [here](https://github.com/coding-boot-camp/potential-enigma), as well as used examples from our Week 9 learnings.
 
-Or email me: [johnowed@gmail.com](mailto:johnowed@gmail.com)
+## Features
+- Select license to get badging icon added to your readme!
+- No License will leave the license section blank
+
+## Access
+Click to view repository: [README.md Generator](https://github.com/johnpow/professional-readme-generator).
